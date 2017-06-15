@@ -90,6 +90,9 @@ namespace ISeeYou
             CvInvoke.CvtColor(this.tmpMatImage,TempInput,ColorConversion.BayerBg2Gray);
             CvInvoke.Threshold(TempInput, TempInput, 5, 255, ThresholdType.Binary);
             CvInvoke.Erode(TempInput,TempInput,new Mat(3,3,DepthType.Cv8U, 1),new Point(-1,-1),1,BorderType.Constant,default(MCvScalar));
+            CvInvoke.Erode(TempInput, TempInput, new Mat(3, 3, DepthType.Cv8U, 1), new Point(-1, -1), 1, BorderType.Constant, default(MCvScalar));
+            CvInvoke.Erode(TempInput, TempInput, new Mat(3, 3, DepthType.Cv8U, 1), new Point(-1, -1), 1, BorderType.Constant, default(MCvScalar));
+            CvInvoke.Erode(TempInput, TempInput, new Mat(3, 3, DepthType.Cv8U, 1), new Point(-1, -1), 1, BorderType.Constant, default(MCvScalar));
 
             // CvInvoke.NamedWindow("TempInput", NamedWindowType.FreeRatio);
             // CvInvoke.Imshow("TempInput", TempInput);
