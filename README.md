@@ -1,5 +1,6 @@
 # Kubiak_Strak
 Recognition of blood vessels in angiographic images of the eye
+Rozpoznawanie naczyń krwionośnych na zdjęciach angiograficznych oka zostało zaimplementowane w dwóch językach, C# z wykorzystaniem biblioteki EmguCV oraz C++ z wykorzystaniem biblioteki OpenCV. Projekty są do siebie analogiczne i wykorzystują ten sam algorytm wykrywania naczyń krwionośnych.
 
 ## Rozpozanawnie naczyń krwionośnych na zdjęciach angiograficznych oka
 Projekt pozwala na identyfikację naczyń krwionośnych oka na podstawie zdjęć angiograficznych oka. Użytkownik ma możliwość zmiany parametru progowania pomiędzy wartościami 190 a 230 w zależności od jasności podawanego obrazu
